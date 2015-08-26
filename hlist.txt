@@ -1,0 +1,17 @@
+ows 
+deer 
+donkey 
+giaraffe 
+goat 
+hippopotamus 
+horse 
+hummingbird 
+opossum 
+ox 
+panda 
+rabbit 
+rhinoceros 
+sheep 
+shrew 
+sloth 
+zebra 
