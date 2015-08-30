@@ -11,6 +11,10 @@ import subprocess
 import re
 import commands
 
+"""
+Class of flat description
+"""
+
 class MyApp(object):
     def __init__(self,square,price,room_n,wallmat,consdate,sun_side):
         self.square = square 
@@ -36,18 +40,15 @@ class Cond(object):
     def __init__(self):
         self.flats = []
 
-    def list_aviaries(self):
-        for flat in flats:
-            aviary.print_content()
-
     def add_flat(self,fl):
         self.flats.append(fl)
         pass
+    """
+    Sort by sq m  from higher prices to lower 
+    """    
     def sorting (self):
-        z = self.flats.sort()
-        for ii in z:
-            print self.flats[ii].price
-        return
+       flat_list=sorted(self.flats, reverse=True)
+       return flat_list
             
      
 
@@ -70,6 +71,7 @@ r.add_flat(app5)
 
 tt = r.sorting()
 
-print tt
+for ii in tt:
+    print ii.price , ii.square , ii.price/ii.square , ii.wallmat
 
    
