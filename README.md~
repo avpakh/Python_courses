@@ -4,7 +4,7 @@ Ex.1
 
 Zoo example
 
- - zo.py new
+ - zo.py
  - vlist.txt
  - hlist.txt
  - test_zo.py
